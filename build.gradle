@@ -62,7 +62,7 @@ minecraft {
     replace 'GRADLE:BUILD', config.build_number
     replace 'GRADLE:VERSION', config.version
 
-    replaceIn 'CircuitryMod.kt'
+    replaceIn 'NamelessMod.kt'
 }
 
 configurations {
